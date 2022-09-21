@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="radio_on_number_drag" id="w:O~1*xIeSO_`MfcZ=KU" x="0" y="0"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id="|=7@cOC[#XqBnMe=1m0r"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="[MDhpT}3iA=R/V4tm_#7"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="WqM=_;5GKh;gd?95u(yQ"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="Rmu2Vk8eEX~ko}R)qARZ"></block></value><value name="B"><shadow type="math_number" id="^e5O`sA[xz^U2W9HBB*c"><field name="NUM">75</field></shadow></value></block></value><statement name="DO0"><block type="controls_if" id="$oEou`Xn+6OOM,FvCloL"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="+UQAqo6WI8LP4_exd;sB"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="radio_received_packet" id="Hpb#q|#*(}(iR[|z~dh:"><value name="type"><shadow type="radio_packet_property" id="0iKUq1msK!b}W7O2qd^7"><field name="note">RadioPacketProperty.SignalStrength</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="V;TgfJk3kRC%8?Z5F`Bd"><field name="NUM">-60</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="H/h[tm;0NB{3-6RF(%fH"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="$lJV5rq)@,=q){8aSzOf"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement><statement name="ELSE"><block type="device_show_leds" id="dg(umY4b]]BR~W-kIg9T"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="pxt-on-start" id="iiR]o=,3C*3py=UFHae-" x="-272" y="428"><statement name="HANDLER"><block type="radio_set_group" id="E9:H=;#7Zhs]A-u?)Z^n"><value name="ID"><shadow type="math_number_minmax" id="{OVqc3AL}?/]s7s*:boH"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">175</field></shadow></value></block></statement></block></xml>
